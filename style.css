@@ -1,0 +1,117 @@
+
+body{
+    background-image: url('./images/sofiya-levchenko-l6yLVM-FJxc-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+.main_div{
+    display:flex;
+    justify-content: center;
+}
+
+.input_div{
+    border:2px solid red;
+    padding:3rem;
+  width:60%;
+    background-color: #dfe6e9;
+    display: flex;
+    flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h2{
+    color:rgb(81, 21, 192);
+}
+.input-label{
+    color:firebrick;
+    font-size: large;
+    font-weight: bold;
+}
+input{
+    border:2px solid blue;
+    border-radius: 7px;
+    width:50%;
+    padding:7px;
+}
+button{
+    border:none;
+    border-radius:5px;
+    color:white;
+    background-color:green;
+    padding:.8rem;
+    width:30%;
+    cursor:pointer;
+    margin-left:30px
+}
+button:hover{
+    color:white;
+    background-color: indigo;
+}
+
+#outputTxt{
+    font-size: large;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(228, 11, 11)
+}
+
+.footer{
+    background-color: #b2bec3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    }
+    
+    .footer a{
+        height:60px;
+        width:60px;
+        background-color: #f5f6fa;
+        border-radius: 50px;
+        text-align: center;
+        margin:10px;
+        line-height: 80px;
+    }
+    .footer i{
+        font-size: 40px;
+    
+    }
+    
+    .model {
+        position: absolute;
+        bottom: 2rem;
+        left: 1rem;
+        z-index: 999;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .model-container {
+        max-width: 300px;
+        min-height: 30vh;
+        background-color: white;
+        text-align: center;
+        padding: 1rem;
+        box-shadow: var(--boxShadow);
+      }
+      
+      .model-btn {
+        background-color: white;
+        border: 1px solid black;
+        font-family: inherit;
+        color: black;
+        padding: 10px 20px;
+      }
+      .model-btn:hover {
+        background-color: black;
+        color: white;
+      }
+      
+      .model-text {
+        padding: 15px 0;
+        text-align: left;
+        font-size: 0.8rem;
+      }
+      
